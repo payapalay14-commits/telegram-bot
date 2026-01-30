@@ -6,7 +6,7 @@ bot = telebot.TeleBot(API_TOKEN)
 @bot.message_handler(commands=['start'])
 def start(message):
     print("Received /start")
-    bot.reply_to(message, 'မင်္ဂလာပါ 👋\nBot အလုပ်လုပ်နေပါပြီ')
+    bot.reply_to(message, 'မင်္ဂလာပါ https://t.me/jackgyi111')
 
 print("Bot is running...")
 bot.infinity_polling()
